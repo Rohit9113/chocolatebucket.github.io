@@ -53,7 +53,7 @@ let generateCartItems = () => {
         productRows.innerHTML = ``;
         label.innerHTML = `
         <h2 class = "cart-empty">Cart is Empty</h2>
-        <a href = "../html/index.html">
+        <a href = "index.html">
             <button class = "homeBtn">Back to home </button>
         </a>
         `;
