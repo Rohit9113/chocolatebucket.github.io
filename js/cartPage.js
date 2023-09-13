@@ -129,7 +129,7 @@ let purchaseItems = () => {
     calculation();
     localStorage.setItem("cartItems", JSON.stringify(basket));
     label.innerHTML = `<h1>Thanks for purchasing our items, God bless you </h1>
-    <a href = "../html/index.html">
+    <a href = "/index.html">
     <button class = "homeBtn">Back to home </button>
 </a>
     `;
